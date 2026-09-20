@@ -7,11 +7,11 @@ Follow these steps to extract a ZIP file and load the folder as an unpacked exte
 
 ### 1. Download the ZIP file
 
-Download the extension's `.zip` file to your computer.
+Download the `pixilart Image Importer.zip` file to your computer.
 
 ### 2. Extract the ZIP file
 
-Locate the downloaded ZIP file and extract it.
+Locate the `Pixilart Image Importer ZIP` file and extract it.
 
 * **Windows:** Right-click the ZIP file → **Extract All...**
 * **macOS:** Double-click the ZIP file.
@@ -56,10 +56,10 @@ Make sure that:
 * You did not select the original `.zip` file.
 * You did not accidentally select a folder containing another folder that contains the actual extension files.
 
-For example, the correct structure should look similar to:
+For example, the correct structure should be :
 
 ```text
-MyExtension/
+Pixilart Image Importer/
 ├── manifest.json
 ├── background.js
 ├── content.js
@@ -69,7 +69,7 @@ MyExtension/
     └── icon.png
 ```
 
-In this example, you should select **`MyExtension`**, not the `icons` folder and not a parent folder containing `MyExtension`.
+In this example, you should select **`Pixilart Image Importer`**, not the `icons` folder and not a parent folder containing `Pixilart Image Importer`.
 
 ### Updating the extension
 
